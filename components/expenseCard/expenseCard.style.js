@@ -6,12 +6,12 @@ const expenseCardStyles = StyleSheet.create({
         display:'flex',
         flexDirection:'row',
         borderRadius:24,
-        width:'100%',
+        flex:1,
         alignItems:'center',
         justifyContent:'space-between',
         padding:24,
+        marginBottom:16,
         backgroundColor:COLORS.background.secondary
-        // backgroundColor:'red'
     },
     LeftSection:{
         display:'flex',
