@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import BottomNavbar from './components/bottomNavbar/bottomNavbar';
 import ExpenseCard from './components/expenseCard/expenseCard';
 import TotalBalanceCard from './components/totalBalanceCard/totalBalanceCard';
 import { COLORS } from './theme/colors';
@@ -9,6 +10,7 @@ export default function App() {
     <View style={styles.container}>
       <TotalBalanceCard/>
       <ExpenseCard/>
+      <BottomNavbar/>
       <StatusBar style="auto" />
     </View>
   );
