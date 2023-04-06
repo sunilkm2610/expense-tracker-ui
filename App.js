@@ -2,12 +2,14 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import BottomNavbar from './components/bottomNavbar/bottomNavbar';
 import ExpenseCard from './components/expenseCard/expenseCard';
+import TopNavbar from './components/topNavbar/topNavbar';
 import TotalBalanceCard from './components/totalBalanceCard/totalBalanceCard';
 import { COLORS } from './theme/colors';
 
 export default function App() {
   return (
     <View style={styles.container}>
+      <TopNavbar/>
       <TotalBalanceCard/>
       <ExpenseCard/>
       <BottomNavbar/>

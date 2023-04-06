@@ -9,5 +9,8 @@ export const COLORS = {
     text:{
         primary:"#2F445E",
         secondary:"#A1B2C8",
+    },
+    user:{
+        avatarBgColor:"#F6C45A"
     }
 }
