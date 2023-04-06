@@ -1,6 +1,5 @@
 import { StyleSheet } from "react-native";
 import { COLORS } from "../theme/colors";
-// import {COLORS} from '../../theme/colors'
 
 const HomePageStyles = StyleSheet.create({
     homeContainer:{
